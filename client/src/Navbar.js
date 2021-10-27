@@ -1,7 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import Toggle from './Toggle';
+
 function Navbar() {
-    const title = "<EveryByte / >"
+    const title = "<CODE-PAIR / >"
     return (
         <>
             <div className="container-fluid nav_bg">
@@ -30,8 +32,11 @@ function Navbar() {
                             </ul>
 
                         </div>
+                        <Toggle/>
                     </nav>
+                    
                 </div>
+                
             </div>
 
         </>
